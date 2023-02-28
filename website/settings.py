@@ -79,10 +79,12 @@ WSGI_APPLICATION = 'website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': "blog",
         'USER': 'blog',
-        'PASSWORD': 'onefullsend23'
+        'PASSWORD': 'onefullsend23',
+        'HOST': 'localhost',
+        'POST':
     }
 }
 
