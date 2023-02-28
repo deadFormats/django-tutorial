@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'taggit',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ DATABASES = {
         'USER': 'blog',
         'PASSWORD': 'onefullsend23',
         'HOST': 'localhost',
-        'POST':
+        'POST': '5432',
     }
 }
 
